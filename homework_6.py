@@ -12,3 +12,22 @@
 # list = [x]
 # print(list_arithmetic_progression(list, size, d, x))
 
+# Задача 32: Определить индексы элементов массива (списка), значения которых принадлежат заданному диапазону
+# (т.е. не меньше заданного минимума и не больше заданного максимума)
+
+# import random
+# def selection(list, min, max, size):
+#     list_selection = []
+#     for i in range(size):
+#         if min < list[i] < max:
+#             list_selection.append(i)
+#     return list_selection
+
+# size = int(input("Введите размер массива: "))
+# a = -10
+# b = 10
+# list = [random.randint(a, b) for i in range(size)]
+# print(list)
+# min = int(input("Введите нижний предел отбора: "))
+# max = int(input("Введите верхний предел отбора: "))
+# print(f"Индексы элементов входящих в заданный диапазон {selection(list, min, max, size)}")
